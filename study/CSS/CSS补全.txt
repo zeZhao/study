@@ -1,0 +1,97 @@
+﻿
+display:table  把样式设置为表格的形式，
+块元素独占一行，可以设置宽高，可以设置margin padding ，默认100%宽度，常见的有p、div、li、h1
+行元素不会独占一行，不可以设置宽高可以设置margin和padding的左右值，从左到右排列。常见的有a、span、img
+display：inline 内联样式 把块元素转换成行元素
+display: block  块元素
+display：inline-block 既具有block元素可以设置width和height属性的特性，又保持了inline元素不换行的特性。
+
+text-size-adjust  页面缩放字号不跟着放大
+
+outline 边框周围又一圈
+
+:focus选择器用于选择具有焦点的元素。
+a:link {color: #FF0000}     /* 未访问的链接 */
+a:visited {color: #00FF00}  /* 已访问的链接 */
+a:hover {color: #FF00FF}    /* 当有鼠标悬停在链接上 */
+a:active {color: #0000FF}   /* 被选择的链接 */
+
+vertical-align：baseline 		默认。元素的基线与父元素的基线对齐。
+				sub 			降低元素的基线到父元素合适的下标位置。
+				super 			升高元素的基线到父元素合适的上标位置。
+				top 			把对齐的子元素的顶端与line box顶端对齐。
+				text-top 		把元素的顶端与父元素内容区域的顶端对齐。
+				middle 			元素的中垂点与 父元素的基线加1/2父元素中字母x的高度 对齐。
+				bottom 			把对齐的子元素的底端与line box底端对齐。
+				text-bottom 	把元素的底端与父元素内容区域的底端对齐。
+				inherit 		采用父元素相关属性的相同的指定值。
+				
+-ms-interpolation-mode属性可以解决缩放失真问题(iE7.0中自带的)
+
+overflow有以下五个基本属性:
+1.visible : 默认值,具体表现为,应用此属性后,子元素超出时,继续展示;
+2.hidden: 超出的部分隐藏;
+3.scroll: 超出时展示滚动条;
+4.auto: 自动判断;
+5.inherit:继承父元素
+
+audio:not([controls]) 	意思就是让没有controls属性的 audio标签都隐藏
+::-moz-focus-inner  火狐的私有伪元素
+appearance: normal 	将元素呈现为常规元素。
+			icon 	将元素呈现为图标（小图片）。
+			window 	将元素呈现为视口。
+			button 	将元素呈现为按钮。
+			menu 	将元素呈现为一套供用户选择的选项。
+			field 	将元素呈现为输入字段。
+			
+page-break-inside:avoid  设置在表格元素内部避免进行分页的分页行为（只有 Opera 浏览器支持 page-break-inside 属性。）
+
+orphans 属性设置或返回一个元素必须在页面底部的可见行的最小数量（用于打印或打印预览）。
+orphans 属性仅影响块级元素。
+提示：orphans:5 意味着至少有 5 行必须在分页符上面可见。
+提示：widows 属性设置或返回一个元素必须在页面顶部的可见行的最小数量。
+
+text-decoration		none 	默认。定义标准的文本。
+					underline 	定义文本下的一条线。
+					overline 	定义文本上的一条线。
+					line-through 	定义穿过文本下的一条线。
+					blink 	定义闪烁的文本。
+					inherit 	规定应该从父元素继承 text-decoration 属性的值。
+
+text-overflow		clip 	修剪文本。 	测试
+					ellipsis 	显示省略符号来代表被修剪的文本。
+				
+white-space			normal 	默认。空白会被浏览器忽略。
+					pre 	空白会被浏览器保留。其行为方式类似 HTML 中的 <pre> 标签。
+					nowrap 	文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。
+					pre-wrap 	保留空白符序列，但是正常地进行换行。
+					pre-line 	合并空白符序列，但是保留换行符。
+					inherit 	规定应该从父元素继承 white-space 属性的值。
+					
+text-transform 		属性控制文本的大小写。
+					none    默认。定义带有小写字母和大写字母的标准的文本。
+					capitalize  文本中的每个单词以大写字母开头。
+					uppercase   定义仅有大写字母。
+					lowercase   定义无大写字母，仅有小写字母。
+					inherit 规定应该从父元素继承 text-transform 属性的值。
+
+word-wrap: break-word;	允许长单词换行到下一行：
+word-break: break-all;	 	允许在单词内换行。
+
+
+前端布局基础概述		微信公众号（前端大全）收藏
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
